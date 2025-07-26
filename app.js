@@ -9,7 +9,7 @@ function agregarAmigo() {
         document.getElementById("amigo").value = "";
         mostrarListaDeAmigos();
     } else {
-        alert("Por favor, ingresa un nombre.");
+        alert("Por favor, ingresa un nombre valido.");
     }
 }
 
@@ -38,6 +38,6 @@ function sortearAmigo() {
 
 function mostrarResultado(amigoSorteado) {
     let li = document.createElement("li");
-    li.textContent = `Tu amigo sorteado es: "${amigoSorteado}"`;
+    li.textContent = `El amigo secreto sorteado es: ${amigoSorteado}`;
     resultado.appendChild(li);
 }
