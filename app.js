@@ -11,7 +11,6 @@ function agregarAmigo() {
     } else {
         alert("Por favor, ingresa un nombre.");
     }
-    console.log("Lista de amigos inicial:", listaDeAmigos);
 }
 
 function mostrarListaDeAmigos() {
@@ -34,7 +33,6 @@ function sortearAmigo() {
         let amigoSorteado = listaDeAmigos[indiceAleatorio];
         lista.innerHTML = "";
         mostrarResultado(amigoSorteado);
-        console.log("Amigo sorteado:", amigoSorteado);
     }
 }
 
